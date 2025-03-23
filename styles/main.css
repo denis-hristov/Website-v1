@@ -178,6 +178,26 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+@media (min-width: 800px) {
+  .about p {
+    background-color: transparent;
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  .about .whenDesc {
+    background-color: #fff;
+    padding: 1em;
+    margin-bottom: 0.5em;
+    border: 2px solid #ddd;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
 
 /* Blog */
 .blog {
